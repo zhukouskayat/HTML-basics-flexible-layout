@@ -1,0 +1,291 @@
+/* Geometry */
+
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px 50px;
+  position: absolute;
+  min-height: 100%;
+  z-index: 0;
+}
+
+#body2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+#main {
+  float: left;
+  width: 55%;
+  margin-left: 20%;
+}
+
+#main h2,
+#main p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#main h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#main .picture {
+  float: left;
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0px 15px 0px 0px;
+}
+
+#sections {
+  float: left;
+  width: 20%;
+  margin-left: -75%;
+  padding-bottom: 32767px;
+  margin-bottom: -32767px;
+  padding-right: 1px;
+  margin-right: 1px;
+}
+
+#sections h2 {
+  display: none;
+}
+
+#sections ul {
+  list-style: none;
+  margin: 50px 0px;
+  padding: 0px;
+}
+
+#sections li a {
+  display: block;
+  margin: 5px 0px;
+  padding: 2px 5px;
+  border-style: solid;
+  border-width: 1px 0px;
+  text-decoration: none;
+}
+
+#news {
+  float: right;
+  width: 25%;
+  padding-bottom: 32767px;
+  margin-bottom: -32676px; 
+  padding-left: 1px;
+  margin-left: -1px;
+}
+
+#news h2 {
+  margin: 0px 0px 10px 0px;
+  padding: 10px;
+}
+
+#news h3 {
+  float: left;
+  margin: 0px 5px;
+}
+
+#news p {
+  margin: 10px 5px;
+}
+
+#news a {
+  padding-right: 13px;
+}
+
+#content {
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 42px;
+}
+
+#user {
+  position: absolute;
+  top: 6px;
+  right: 0;
+  margin: 20px;
+}
+
+#user p {
+  margin: 0px;
+  white-space: nowrap;
+}
+
+h1 {
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 60px;
+}
+
+#meta {
+  padding: 1px 0px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
+h1 {
+  padding-left: 60px;
+}
+
+#meta p {
+  margin: 5px;
+}
+
+/* Colors */
+
+html {
+  background: url(../images/window-bg.png) #eee;
+}
+
+body {
+  background: url(../images/left-body-bg.png) white 20% 0 repeat-y;
+  color: black;
+}
+
+#body2 {
+  background: url(../images/right-body-bg.png) 75% 0 repeat-y;
+}
+#title {
+  background: url(../images/title-bg.png) #5756b3 left top repeat-x;
+  color: white;
+}
+
+h1 {
+  background: url(../images/logo.png) left top no-repeat;
+}
+
+#main h2 {
+  }
+
+#sections {
+  
+}
+
+#main .picture {
+  border-color: #abadde;
+}
+
+#sections li a {
+  background: #abadde;
+  color: white;
+  border-color: white;
+}
+
+#sections li a:hover {
+  background: #5756b3;
+}
+
+#news {
+  
+}
+
+#news h2 {
+  background: url(../images/news-head-bg.png) #dde6ff left top repeat-x;
+}
+
+#news a {
+  background: url(../images/red-arrow.png) right center no-repeat;
+}
+
+.details {
+  color: #5756b3;
+}
+
+.details:hover {
+  color: #abadde;
+}
+
+#meta,
+#meta a {
+  background: #5756b3;
+  color: white;
+}
+
+#user {
+  color: white;
+}
+
+.logout {
+  color: #abadde;
+}
+
+.logout:hover {
+  color:black;
+}
+
+/* Fonts */
+
+body {
+  font: 10pt Tahoma, Sans-Serif;
+}
+
+h1 {
+  font-size: 180%;
+  letter-spacing: 1px;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  vertical-align: middle;
+
+}
+
+#main h2 {
+  font-size: 130%;
+}
+
+#main p{
+  text-align: justify;
+}
+
+#sections,
+#news {
+  font-size: 80%;
+}
+
+#sections h2,
+#news h2 {
+  font-size: 125%;
+  font-weight: bold;
+}
+
+#news h3 {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+#news p{
+  text-align: justify;
+}
+
+.details {
+  text-decoration: none;
+}
+
+
+#meta {
+  font-size: 70%;
+}
+
+#user {
+  font-size: 90%;
+  text-align: right;
+  vertical-align: text-top
+}
+
+.logout {
+  text-decoration: none;
+}
